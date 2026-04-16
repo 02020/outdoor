@@ -6,7 +6,7 @@ HOST = '223.6.248.243'
 USER = 'root'
 PASS = 'LZal33547840'
 
-BASE = r'd:\P00\Superpowers\outdoor-fund'
+BASE = r'd:\Er\io\outdoor'
 
 c = paramiko.SSHClient()
 c.set_missing_host_key_policy(paramiko.AutoAddPolicy())

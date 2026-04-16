@@ -1,11 +1,12 @@
 # 户外公积金管理系统 (Outdoor Fund)
 
-> 面向户外活动群组的公积金自动结算系统
 
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue.svg)](https://www.typescriptlang.org/)
-[![Vue](https://img.shields.io/badge/Vue-3.5-green.svg)](https://vuejs.org/)
-[![Node](https://img.shields.io/badge/Node-20+-brightgreen.svg)](https://nodejs.org/)
-[![License](https://img.shields.io/badge/License-Private-red.svg)]()
+cd d:\Er\io\outdoor
+npm run build                    # 1. 构建
+python deploy\deploy.py          # 2. 部署（一键完成）
+
+
+> 面向户外活动群组的公积金自动结算系统
 
 ---
 

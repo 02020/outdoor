@@ -132,7 +132,7 @@ export function importFromExcel(groupId: number, buffer: Buffer): ImportResult {
         if (!member) {
           const nickname = row['昵称'] ? String(row['昵称']).trim() : null
           const phone = row['手机号'] ? String(row['手机号']).trim() : null
-          const outdoorTitle = row['户外昵称'] ? String(row['户外昵称']).trim() : null
+          const outdoorTitle = row['户外昵称'] ? String(row['户外昵称']).trim() : (row['户外称号'] ? String(row['户外称号']).trim() : null)
           const expRaw = row['户外经验'] ? String(row['户外经验']).trim() : null
           const experienceLevel = (expRaw ? (expLevelMap[expRaw] || null) : null) as ExperienceLevel | null
           const hasCar = row['有车'] === 1 || row['有车'] === '1' || row['有车'] === true
